@@ -79,8 +79,6 @@ export default function Home() {
         7
       );
       setForcast(filteredForecast);
-      console.log(forcast);
-      console.log(data);
     } catch (error) {
       console.log(error);
       setIsLoading(false);
